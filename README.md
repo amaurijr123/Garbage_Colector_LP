@@ -22,5 +22,5 @@ Exclusively used to print the current state of the Memory(Linked List). It also 
 ## void Imprimir_Int(int *v)
 Used to print the number inside the address of the given "int" pointer variable.
 
-##void Imprimir_Char(char *v)
+## void Imprimir_Char(char *v)
 Used to print the character inside the address of the given "char" pointer variable.
