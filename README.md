@@ -2,10 +2,10 @@
 
 This project was made as an exercise of the discipline "Linguagens de Programação". The objective is to create a static library with the goal to implement a memory garbage collector using the C language. It was made by Amauri da Silva Junior and Sarah Santos da Silva, using the IDE CodeBlocks. It was used a Singly Linked List as a simulation of the Memory for educational reasons. 
 
-##Structure
+## Structure
 The structure of the Singly Linked List is basically made with a "void" pointer used to store the variable memory adress; an "int" counter to reference the current amount of variables pointing at the current address; and a pointer to the next element of the list. 
 
-##Functions 
+## Functions 
 
 ### void *malloc2(int size) 
 Used to dynamically allocate the memory with a given size. This function creates a new list element, allocates a part of the memory with the variable "size" and add 1 to the counter inside the new element, because this address is going to be used by 1 new variable. It returns the memory address allocated. 
