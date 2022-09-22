@@ -1,4 +1,4 @@
-# Garbage_Colector_LP
+# Garbage_Collector_LP
 
 This project was made as an exercise of the discipline "Linguagens de Programação". The objective is to create a static library with the goal to implement a memory garbage collector using the C language. It was made by Amauri da Silva Junior and Sarah Santos da Silva, using the IDE CodeBlocks. It was used a Singly Linked List as a simulation of the Memory for educational reasons. 
 
