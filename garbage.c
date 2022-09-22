@@ -59,18 +59,20 @@ void Imprimir_Mem(){
     printf("\nMemoria:\n");
     Memoria *aux = mem;
     while(aux!=NULL){
-        if(aux->cont==0)
+        if(aux->cont==0){
+            aux = aux->prox;
             dump();
+        }
         else{
             printf("Endereco: %d Contador de Ponteiros: %d\n",(int)aux->end,aux->cont);
+            aux = aux->prox;
         }
-        aux = aux->prox;
     }
 }
 
-void Imprimir_Int(void *v){
+void Imprimir_Int(int *v){
     if(v!=NULL){
-        printf("\nEndereco %d = %d\n",v, *((int*)v));
+        printf("\nEndereco %d = %d\n",v, *v);
     }
 }
 

@@ -15,7 +15,7 @@ void dump();
 
 void Imprimir_Mem();
 
-void Imprimir_Var(void *v);
+void Imprimir_Var(int *v);
 
 void Imprimir_Char(char *v);
 #endif // GARBAGE_H
